@@ -1,5 +1,6 @@
 #!/bin/bash
 chown -R ${PUID}:${PGID} /opt/alist/
+chown -R ${PUID}:${PGID} /root/
 
 umask ${UMASK}
 
